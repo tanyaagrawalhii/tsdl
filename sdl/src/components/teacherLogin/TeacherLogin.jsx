@@ -10,11 +10,20 @@ const TeacherLogin = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
+    // Check if all fields are filled
     if (!name || !email || !password) {
       alert('Please fill out all fields.');
       return;
     }
-    navigate('/teacher/dashboard',{ state: { name } });
+    
+    // Check if the password is correct
+    if (password !== '123') {
+      alert('Incorrect password. Please try again.');
+      return;
+    }
+
+    // Navigate to the dashboard if the password is correct
+    navigate('/teacher/dashboard', { state: { name } });
   };
 
   return (
@@ -30,15 +39,14 @@ const TeacherLogin = () => {
           <h2>Welcome!</h2>
           <p>Login to your account</p>
           <div className="login-form">
-          <div className="form-group">
-          
-          <input 
-            type="text" 
-            id="name" 
-            value={name} 
-            onChange={(e) => setName(e.target.value)} 
-            placeholder="Enter your name" 
-          />
+            <div className="form-group">
+              <input 
+                type="text" 
+                id="name" 
+                value={name} 
+                onChange={(e) => setName(e.target.value)} 
+                placeholder="Enter your name" 
+              />
             </div>
             
             <div className="form-group">
