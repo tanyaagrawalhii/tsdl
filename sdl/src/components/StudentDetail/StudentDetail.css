@@ -1,0 +1,67 @@
+.student-details-container {
+  display: flex; /* Use flexbox for layout */
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.student-info {
+  width: 20%; /* Reduced width of the sidebar */
+  background-color: #f4f4f4; /* Light gray background for sidebar */
+  padding: 20px; /* Padding for sidebar */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.student-profile-image {
+  width: 80px; /* Image width */
+  height: 80px; /* Image height */
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 10px; /* Space below image */
+}
+
+.student-info h2 {
+  margin: 10px 0; /* Space above and below name */
+  text-align: center; /* Center text */
+}
+
+.notes-section {
+  width: 80%; /* Main content width */
+  padding: 20px; /* Padding for main content */
+  overflow-y: auto; /* Scroll if content overflows */
+}
+
+.note {
+  border: 1px solid #ddd; /* Light border for notes */
+  padding: 10px; /* Padding inside notes */
+  margin-bottom: 10px; /* Space between notes */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.note h4 {
+  margin: 0; /* Remove default margin */
+}
+
+.note a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* No underline */
+}
+
+.note a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.contact-link {
+  color: #007bff; /* Bootstrap primary color */
+  text-decoration: none;
+  margin-left: 5px; /* Add space between text and icon */
+}
+
+.contact-link:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
+
+.student-info p {
+  margin-bottom: 10px; /* Spacing between paragraphs */
+}
+

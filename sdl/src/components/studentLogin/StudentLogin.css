@@ -1,0 +1,113 @@
+/* StudentLogin.css */
+
+.student-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.student-login-box {
+  display: flex;
+  width: 850px;
+  height: 450px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.student-login-left {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.student-login-right {
+  width: 50%;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.student-login-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.student-login-input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+
+.student-login-input:focus {
+  outline: none;
+  border-color: #ff416c;
+  background-color: white;
+}
+
+.student-login-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 20px 0;
+}
+
+.student-login-button:hover {
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+}
+
+
+
+
+
+.student-login-forgot {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #ff416c;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.student-login-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.student-login-right p {
+  font-size: 1rem;
+}
+
+.student-login-right .student-login-signup-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ff416c;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.student-login-right .student-login-signup-button:hover {
+  background-color: #f0f0f0;
+}

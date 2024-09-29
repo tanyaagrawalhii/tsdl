@@ -1,0 +1,101 @@
+/* StudentRegister.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 110vh; /* Increased the height from 100vh to 110vh */
+  background-color: #f0f4f8;
+}
+
+.register-box {
+  display: flex;
+  width: 850px;
+  height: 480px; /* Optionally, adjust the height of the box itself */
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.register-left {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-right {
+  width: 50%;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.register-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register-input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #ff416c;
+  background-color: white;
+}
+
+.register-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 20px 0;
+}
+
+.register-button:hover {
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+}
+
+.register-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.register-right p {
+  font-size: 1rem;
+}
+
+.register-right .login-link {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ff416c;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.register-right .login-link:hover {
+  background-color: #f0f0f0;
+}
